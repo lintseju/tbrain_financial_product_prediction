@@ -1,0 +1,15 @@
+model: LGBMClassifier
+model_params:
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 2, 'verbose': -1, 'seed': 471234, 'is_unbalance': True}
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 4, 'verbose': -1, 'seed': 471234, 'is_unbalance': True}
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 6, 'verbose': -1, 'seed': 471234, 'is_unbalance': True}
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 8, 'verbose': -1, 'seed': 471234, 'is_unbalance': True}
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 2, 'verbose': -1, 'seed': 471234, 'is_unbalance': True, 'min_child_samples': 60}
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 4, 'verbose': -1, 'seed': 471234, 'is_unbalance': True, 'min_child_samples': 60}
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 6, 'verbose': -1, 'seed': 471234, 'is_unbalance': True, 'min_child_samples': 60}
+  - {'objective': 'binary', 'n_estimators': 500, 'max_depth': 8, 'verbose': -1, 'seed': 471234, 'is_unbalance': True, 'min_child_samples': 60}
+feature_preprocess:
+  -
+  -
+  -
+  - - sign
