@@ -23,7 +23,7 @@ Problem
 
 Offline evaluation
 ==================
-raining data 最後保留三十天做為 validation set 計算 f1 score。
+Training data 最後保留三十天做為 validation set 計算 f1 score。
 
 Feature
 =======
